@@ -42,7 +42,7 @@ export default {
 		babel({
 			babelHelpers: 'runtime',
 			exclude: 'node_modules/**',
-			extensions: ['.ts', '.tsx'],
+			extensions: ['.ts', '.tsx', 'js', 'jsx'],
 		}),
 		terser(),
 		del({ targets: 'dist/*' }),
