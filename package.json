@@ -1,6 +1,6 @@
 {
 	"name": "@skhatak/first_library",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "",
 	"repository": {
 		"type": "git",
@@ -23,7 +23,6 @@
 		"build:storybook": "build-storybook",
 		"changeset": "changeset",
 		"lint": "eslint . --ext .ts,.tsx,.js,.jsx",
-		"prepare": "husky install",
 		"release": "changeset publish",
 		"storybook": "start-storybook -p 6006 --quiet",
 		"test": "NODE_ENV=test jest",
